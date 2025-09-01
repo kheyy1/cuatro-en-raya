@@ -132,6 +132,13 @@ for (int fi = 3; fi < 6; fi++) {
                     case "E" -> 4;
                     case "F" -> 5;
                     case "G" -> 6;
+                    case "a" -> 0;
+                    case "b" -> 1;
+                    case "c" -> 2;
+                    case "d" -> 3;
+                    case "e" -> 4;
+                    case "f" -> 5;
+                    case "g" -> 6;
                     default -> throw new IllegalArgumentException("Columna inválida: " + jugadaColumna);
                 };
                 int i = -1;
@@ -160,6 +167,13 @@ for (int fi = 3; fi < 6; fi++) {
                     case "E" -> 4;
                     case "F" -> 5;
                     case "G" -> 6;
+                    case "a" -> 0;
+                    case "b" -> 1;
+                    case "c" -> 2;
+                    case "d" -> 3;
+                    case "e" -> 4;
+                    case "f" -> 5;
+                    case "g" -> 6;
                     default -> throw new IllegalArgumentException("Columna inválida: " + jugadaColumna);
                 };
                 int i = -1;
