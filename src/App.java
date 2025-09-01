@@ -179,10 +179,10 @@ for (int fi = 3; fi < 6; fi++) {
             turno++;
         }
         if (hayCuatroEnRaya(tablero) == 1){
-            System.out.println("Ha ganado " + name2);
+            System.out.println("Ha ganado " + jugador2);
         }
         else{
-            System.out.println("Ha ganado " + name1);
+            System.out.println("Ha ganado " + jugador1);
         }
         mostrarTablero(tablero);
         teclado.close();
